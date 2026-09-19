@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гараж</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>ГАРАЖ</h1>
+    <p>Тимофія, Андрія та Володі</p>
+</header>
+
+<div class="actions">
+
+    <button id="earn">
+        КЛІКАЙ<br>
+        +100$
+    </button>
+
+    <button id="x2">
+        X2
+    </button>
+
+</div>
+
+<h2 id="balance">
+    Баланс: $0
+</h2>
+
+<div class="garage">
+
+    <!-- КУПЛЕНІ МАШИНИ -->
+    <section>
+
+        <h2>У ВАС Є</h2>
+
+        <div id="cars">
+            <p class="empty">
+                У вас ще немає машин
+            </p>
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2> МОЖНА ДОБАВИТИ</h2>
+
+
+        <!-- AUDI -->
+        <div class="car">
+
+            <img
+                class="car-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSWKk4U7oo1lDBI8riGpWgkIBmoVx25OCtkPlgBjvQUA&s=10"
+                alt="Audi RS 6"
+            >
+
+            <div class="car-info">
+                <h3>Audi RS 6</h3>
+                <p>Спортивний універсал</p>
+                <strong>65 670$</strong>
+            </div>
+
+            <button onclick="buy('Audi RS 6', 65670)">
+                +
+            </button>
+
+        </div>
+
+
+        <div class="car">
+
+            <img
+                class="car-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6KLlbvwNv6IkH5qutghFe6Z91co6sfGiVZz5B-ETnyw&s=10"
+                alt="Aston Martin DBS"
+            >
+
+            <div class="car-info">
+                <h3>Aston Martin DBS</h3>
+                <p>Люксовий спорткар</p>
+                <strong>67 670$</strong>
+            </div>
+
+            <button onclick="buy('Aston Martin DBS', 67670)">
+                +
+            </button>
+
+        </div>
+
+
+      
+        <div class="car">
+
+            <img
+                class="car-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR--odW_iAgG4UBMqM1f98iN30O7eAXdGEbOM-fOkyJmg&s=10"
+                alt="Porsche 911"
+            >
+
+            <div class="car-info">
+                <h3>Porsche 911</h3>
+                <p>Класичний спорткар</p>
+                <strong>56 767$</strong>
+            </div>
+
+            <button onclick="buy('Porsche 911', 56767)">
+                +
+            </button>
+
+        </div>
+
+
+      
+        <div class="car">
+
+            <img
+                class="car-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JRUCD6PXi8q-s2ZCKqBrNmwmyu_9MzWFP6zbZSqM9A&s=10"
+                alt="Kawasaki ZX25R"
+            >
+
+            <div class="car-info">
+                <h3>Kawasaki ZX25R</h3>
+                <p>Спортивний мотоцикл</p>
+                <strong>18 000$</strong>
+            </div>
+
+            <button onclick="buy('Kawasaki ZX25R', 18000)">
+                +
+            </button>
+
+        </div>
+
+
+        
+        <div class="car">
+
+            <img
+                class="car-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCCcPMfI4VrMC2Q6z0Lfcby9tKY7aUPAbJ6x8krpAmA&s=10"
+                alt="KAMAZ"
+            >
+
+            <div class="car-info">
+                <h3>KAMAZ</h3>
+                <p>Вантажівка</p>
+                <strong>16 767$</strong>
+            </div>
+
+            <button onclick="buy('KAMAZ', 16767)">
+                +
+            </button>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
